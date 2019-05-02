@@ -10,37 +10,39 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li>About</li>
-                <li>Store</li>
+            <ul class="about">
+                <a href=""><li>About</li></a>
+                <a href=""><li>Store</li></a>
             </ul>
-            <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>Sign In</li>
+            <ul class="services">
+                <a href=""><li>Gmail</li></a>
+                <a href=""><li>Images</li></a>
+                <a href=""><li>Sign In</li></a>
             </ul>
         </nav>
     </header>
     <main>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
         <form action="#">
             <input type="text" name="Gsearch" id="Gsearch">
-            <input type="button" value="Google Search" id="Google Search">
-            <input type="button" value="I'm Feeling Lucky" id="I'm Feeling Lucky">
+            <div class="duo">
+                <input type="button" value="Google Search" id="button">
+                <input type="button" value="I'm Feeling Lucky" id="button">
+            </div>
         </form>
 
     </main>
     
     <footer>
         <nav>
-            <ul>
-                <li>Advertising</li>
-                <li>Business</li>
+            <ul class="ads">
+                <a href=""><li>Advertising</li></a>
+                <a href=""><li>Business</li></a>
             </ul>
-            <ul>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+            <ul class="info">
+                <a href=""><li>Privacy</li></a>
+                <a href=""><li>Terms</li></a>
+                <a href=""><li>Settings</li></a>
             </ul>
         </nav>
     </footer>
